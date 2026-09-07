@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "FSM_levelshifter") (type "KiCad") (uri "${KIPRJMOD}/libraries/FSM_levelshifter.pretty") (options "") (descr ""))
+)

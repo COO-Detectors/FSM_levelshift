@@ -1117,6 +1117,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Reference_Voltage:LM4040DBZ-5"
 			(pin_names
 				(offset 0.0254)
@@ -1748,6 +1871,12 @@
 		(uuid "1d016624-21e0-4c41-ae1e-f89e3ba82987")
 	)
 	(junction
+		(at 218.44 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e75595d-90c1-4d23-af59-fd302a16622d")
+	)
+	(junction
 		(at 247.65 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1796,6 +1925,12 @@
 		(uuid "9cb470b5-b21d-49d0-8b21-d97254d2d540")
 	)
 	(junction
+		(at 229.87 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a338f4a5-8605-4d14-b7a6-c0e80f3129c0")
+	)
+	(junction
 		(at 73.66 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1824,6 +1959,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddc491ab-6cdb-4026-b4aa-5e1eafcbf28f")
+	)
+	(junction
+		(at 241.3 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e635e08d-940e-44dd-aded-03b1c92e8601")
 	)
 	(no_connect
 		(at 173.99 35.56)
@@ -1935,6 +2076,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 152.4) (xy 218.44 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d23166c-cc91-43e2-8c92-693b790ecd97")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 218.44 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305886ac-cf16-4f96-abc3-e1fa4bd30a4f")
+	)
+	(wire
+		(pts
 			(xy 121.92 88.9) (xy 135.89 88.9)
 		)
 		(stroke
@@ -1952,6 +2113,16 @@
 			(type default)
 		)
 		(uuid "38c215e1-532f-47b0-8c3e-c4def7ea0070")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f139c4-6e10-4737-813b-5fccbecb92e8")
 	)
 	(wire
 		(pts
@@ -2035,6 +2206,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 133.35) (xy 241.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dff270-e106-47e4-b8a5-490fdbf82a96")
+	)
+	(wire
+		(pts
+			(xy 251.46 133.35) (xy 251.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ec420f-0af1-4cd6-a93c-dd196e7b7d8f")
+	)
+	(wire
+		(pts
 			(xy 69.85 66.04) (xy 80.01 66.04)
 		)
 		(stroke
@@ -2102,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "833683f2-3e2d-4d57-b5d6-e3517f584076")
+	)
+	(wire
+		(pts
+			(xy 229.87 146.05) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843f02c5-d0aa-4077-acbe-4451871ae1b3")
 	)
 	(wire
 		(pts
@@ -2185,6 +2386,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 146.05) (xy 218.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a088d503-ef5e-42b5-9309-e64447ff81fd")
+	)
+	(wire
+		(pts
 			(xy 151.13 100.33) (xy 151.13 88.9)
 		)
 		(stroke
@@ -2252,6 +2463,16 @@
 			(type default)
 		)
 		(uuid "bfeb0048-e365-44b5-a759-7fdab76b8579")
+	)
+	(wire
+		(pts
+			(xy 251.46 152.4) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f7226b-e1b4-4547-a7dd-7b5cb1b9eff9")
 	)
 	(wire
 		(pts
@@ -2325,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 146.05) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55288bc-282a-4864-ad27-9b14db7aa678")
+	)
+	(wire
+		(pts
 			(xy 234.95 49.53) (xy 247.65 49.53)
 		)
 		(stroke
@@ -2365,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 146.05) (xy 251.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3116c33-a222-421a-99d2-82b6e5b9db7c")
+	)
+	(wire
+		(pts
 			(xy 80.01 41.91) (xy 105.41 41.91)
 		)
 		(stroke
@@ -2375,6 +2616,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 152.4) (xy 218.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9588d0b-f33f-44a9-9818-85b42ac1eea0")
+	)
+	(wire
+		(pts
 			(xy 157.48 88.9) (xy 163.83 88.9)
 		)
 		(stroke
@@ -2382,6 +2633,36 @@
 			(type default)
 		)
 		(uuid "fc9e9534-568e-400d-a31a-d8539d0c1cdc")
+	)
+	(wire
+		(pts
+			(xy 229.87 133.35) (xy 229.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0f4a3c-c71c-4fae-9cb7-053ec5550f80")
+	)
+	(label "V_SUM"
+		(at 144.78 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07bcfc01-8dd1-47bb-9c93-7e2367b78b31")
+	)
+	(label "V_NEG"
+		(at 76.2 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4aca2718-ef70-4396-9daf-f162de50837f")
 	)
 	(label "VIN"
 		(at 59.69 41.91 0)
@@ -2458,6 +2739,111 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 237.49 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65d991c4-faca-4145-a1b6-1a7bb24dafb3")
+		(property "Netclass" "POWER"
+			(at 238.1885 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 220.98 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 80.01 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84438899-f267-4efe-bdba-50566353d2b9")
+		(property "Netclass" "POWER"
+			(at 80.7085 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 63.5 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 237.49 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5894ded-93bf-44df-9dea-3e519a0dcd58")
+		(property "Netclass" "POWER"
+			(at 238.1885 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 220.98 -39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -2571,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "FSM_levelshifter:RESCAXS80P320X160X60-8N"
 			(at 170.18 62.992 90)
 			(hide yes)
 			(show_name no)
@@ -2820,6 +3206,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 218.44 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "220555c3-1c61-40e2-8dfd-396762624aac")
+		(property "Reference" "R8"
+			(at 220.98 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 220.98 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.456 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 218.44 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e067d3af-163a-4d46-934e-478dd33247e4")
+		)
+		(pin "1"
+			(uuid "61abf829-a218-453f-be70-d35cb937ff76")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 251.46 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "236e44f3-c792-4aa4-ba34-9d3654235b73")
+		(property "Reference" "H1"
+			(at 254 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 254 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 251.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 251.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3becb527-8128-49bc-9ff1-aefea5828283")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 139.7 100.33 90)
 		(unit 4)
@@ -2851,7 +3398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "FSM_levelshifter:RESCAXS80P320X160X60-8N"
 			(at 139.7 102.362 90)
 			(hide yes)
 			(show_name no)
@@ -2935,6 +3482,166 @@
 				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
 					(reference "RN3")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 251.46 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30852e5e-0257-411a-9d4b-89685158e434")
+		(property "Reference" "R5"
+			(at 254 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 254 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.476 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 251.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1cfea1f9-922d-4ce9-a84e-6cec145464eb")
+		)
+		(pin "1"
+			(uuid "f358fe44-07d9-4044-b827-2711655225be")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 218.44 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e0fdb16-73d5-4403-9575-f74237552799")
+		(property "Reference" "#PWR06"
+			(at 218.44 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 218.44 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 218.44 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59731573-9e9e-4672-a3e0-1423007191a0")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "#PWR06")
+					(unit 1)
 				)
 			)
 		)
@@ -3265,6 +3972,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 229.87 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "726627ee-33eb-4ddb-9dae-f32c4724a8c6")
+		(property "Reference" "H3"
+			(at 232.41 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 232.41 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 229.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 229.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9ef793d-9e61-4aab-9906-b173eba4fd7c")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 139.7 88.9 90)
 		(unit 3)
@@ -3296,7 +4082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "FSM_levelshifter:RESCAXS80P320X160X60-8N"
 			(at 139.7 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -3380,6 +4166,85 @@
 				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
 					(reference "RN3")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 241.3 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "802bda7e-c3c0-4345-88d1-c27a951d0ad0")
+		(property "Reference" "H2"
+			(at 243.84 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 243.84 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db369339-22a0-49b4-8aa5-6601fff8716c")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "H2")
+					(unit 1)
 				)
 			)
 		)
@@ -3605,6 +4470,88 @@
 				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 229.87 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b1f41ee-7973-4859-9aca-14febed783c1")
+		(property "Reference" "R7"
+			(at 232.41 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 232.41 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.886 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 229.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53ce7bc6-625d-47de-9fec-6036516c0702")
+		)
+		(pin "1"
+			(uuid "e8f36607-57e7-4b24-b713-a57380533f15")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "R7")
+					(unit 1)
 				)
 			)
 		)
@@ -3843,7 +4790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.44 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -4092,6 +5039,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c02447fa-3900-4bd1-be0e-f8b2e293e511")
+		(property "Reference" "R6"
+			(at 243.84 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 243.84 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 242.316 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c760134e-2da0-4f3b-8a58-326f87ac6456")
+		)
+		(pin "1"
+			(uuid "b5c543a5-cade-45ea-8ceb-d14f012e6803")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 154.94 105.41 0)
 		(unit 1)
@@ -4283,7 +5312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "FSM_levelshifter:RESCAXS80P320X160X60-8N"
 			(at 177.8 37.592 90)
 			(hide yes)
 			(show_name no)
@@ -4450,6 +5479,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 218.44 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9da32cf-d145-40ff-9cbb-7e8ff3458d63")
+		(property "Reference" "H4"
+			(at 220.98 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 220.98 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0972082d-8c2e-47bb-99c0-50cdc777b498")
+		)
+		(instances
+			(project "FSM_levelshifter"
+				(path "/b86fd6ce-cf4e-4e10-a9a8-17500ff651b0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 170.18 76.2 90)
 		(unit 1)
@@ -4481,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.99 75.2348 0)
 			(hide yes)
 			(show_name no)
