@@ -15,7 +15,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 100 10 100Meg",
+        ".ac dec 100 10 10Meg",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -32,13 +32,13 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/VDIV) (gain)",
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/VOUT) (gain)",
           "trace_type": 521
         },
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/VOUT) (gain)",
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/VS1) (gain)",
           "trace_type": 521
         }
       ]
@@ -77,7 +77,7 @@
     {
       "analysis": "DC",
       "commands": [
-        ".dc V4 -10 10 100m",
+        ".dc V4 -12 12 100m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -93,11 +93,6 @@
       "measurements": [],
       "showGrid": true,
       "traces": [
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/VDIV)",
-          "trace_type": 2049
-        },
         {
           "color": "rgb(228, 26, 28)",
           "signal": "V(/VIN)",
